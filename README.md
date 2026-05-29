@@ -1,6 +1,6 @@
 # Geometric Data Clustering & Error Correction Framework
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NzrYv6b8tK86yU_X-H-C3HWhXN6n_WfA)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1d6D7Un3uv8ebXt3jWCs8tv5l_sxzrgfQ?usp=sharing)
 ## 📌 Project Overview
 This project is a comprehensive benchmarking and research framework that explores the structural and geometric limitations of traditional unsupervised clustering algorithms ($K\text{-Means}$ and Agglomerative Hierarchical Clustering). 
 
