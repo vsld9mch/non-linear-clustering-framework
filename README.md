@@ -1,14 +1,14 @@
 # Geometric Data Clustering & Error Correction Framework
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1d6D7Un3uv8ebXt3jWCs8tv5l_sxzrgfQ?usp=sharing)
-## 📌 Project Overview
+##  Project Overview
 This project is a comprehensive benchmarking and research framework that explores the structural and geometric limitations of traditional unsupervised clustering algorithms ($K\text{-Means}$ and Agglomerative Hierarchical Clustering). 
 
 To overcome the inherent geometric constraints of traditional methods on non-convex shapes, the framework introduces a **hybrid Machine Learning pipeline**. By feeding spatial coordinates combined with unsupervised cluster assignments into a multi-layer Artificial Neural Network ($ANN$), the deep learning model successfully learns complex non-linear decision boundaries, achieving near 100% error correction.
 
 ---
 
-## 🔬 Framework Architecture & Workflow
+##  Framework Architecture & Workflow
 
 ### 1. Synthetic Data Generation & Spatial Geometry
 The pipeline evaluates algorithms across three distinct synthetic datasets generated via `scikit-learn` to isolate specific geometric properties:
@@ -36,14 +36,14 @@ To resolve the structural failures of unsupervised methods on the non-linear `Mo
 
 ---
 
-## 📊 Core Conclusions & Findings
+##  Core Conclusions & Findings
 1. **Convex Domination:** Traditional algorithms ($K\text{-Means}$ and Hierarchical with Ward linkage) excel perfectly at detecting spherical, convex clusters.
 2. **Geometric Blindness:** Both unsupervised methods completely fail when mapping complex, intertwined non-linear structures (`Moons` and `Circles`), cutting the shapes linearly rather than following their natural curves.
 3. **The Hybrid Solution:** By utilizing Deep Learning non-linear mappings, the $ANN$ uses the baseline clustering insights as an anchor and corrects the partition errors, elevating test prediction accuracy to **~100%**.
 
 ---
 
-## 🛠️ Tech Stack & Dependencies
+##  Tech Stack & Dependencies
 * **Language:** Python 3.x
 * **Deep Learning Framework:** TensorFlow 2.x / Keras
 * **Machine Learning & Analytics:** scikit-learn
